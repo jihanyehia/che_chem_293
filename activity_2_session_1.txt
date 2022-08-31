@@ -1,0 +1,26 @@
+data from https://www.statology.org/simple-linear-regression-excel/
+
+What does the model achieve?
+The model shows a linear regression between the hours spent to prepare for a test and the test score.
+
+
+How should metrics be interpreted?
+The slope (5.250) means that the test score can be improved 5.250 times with additional hours of study.
+The Y-intercept (67.16) represents the test score expected with zero hours of study. 
+
+
+What are appropriate use cases?
+Any case having two variables that are expected to be linearly related:
+food intake and obesity, smoking and lung cancer, ...
+
+
+How is it implemented? *
+It determines the best regression line by minimizing the squared difference between the line and the actual data points.
+
+
+What are caveats/biases/concerns to its usage?
+More than 20 data points may improve the accuracy of the model.
+
+
+How to interpret this specific result and advising action/next steps
+Test scores are correlated with study hours. More hours of study can generally improve the test score.
